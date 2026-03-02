@@ -50,11 +50,7 @@ uint64_t sumPrime(uint64_t hbound) {
 
     uint64_t sum = 0;
     
-    if (hbound > 2) {
-        sum = 2;
-    }
-
-    for (uint64_t i = 3; i < hbound; i += 2) {
+    for (uint64_t i = 2; i < hbound; i ++) {
         if (checkPrime(i)) {
             sum += i;
         }
