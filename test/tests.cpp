@@ -209,9 +209,9 @@ TEST(SumPrimeTest, HandlesSmallBounds) {
 }
 
 TEST(SumPrimeTest, HandlesMediumBounds) {
-    EXPECT_EQ(sumPrime(20), 77);  
-    EXPECT_EQ(sumPrime(30), 129);  
-    EXPECT_EQ(sumPrime(40), 197);  
+    EXPECT_EQ(sumPrime(20), 77);
+    EXPECT_EQ(sumPrime(30), 129);
+    EXPECT_EQ(sumPrime(40), 197);
     EXPECT_EQ(sumPrime(50), 328);
 }
 
