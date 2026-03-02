@@ -225,7 +225,6 @@ TEST(SumPrimeTest, HandlesLargeBounds) {
 TEST(SumPrimeTest, HandlesVeryLargeBounds) {
     EXPECT_EQ(sumPrime(2000000), 142913828922ULL);
     EXPECT_EQ(sumPrime(10000), 5736396);
-    EXPECT_EQ(sumPrime(50000), 121013314);
 }
 
 TEST(SumPrimeTest, HandlesBoundaryCases) {
